@@ -1,0 +1,7 @@
+train: C:/Users/Abdullah/dentx2/images/train
+val: C:/Users/Abdullah/dentx2/images/val
+test: C:/Users/Abdullah/dentx2/images/test
+
+nc: 1
+
+name: ['cavity']
