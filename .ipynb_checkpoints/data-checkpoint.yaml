@@ -1,7 +1,9 @@
-train: C:/Users/Abdullah/dentx2/images/train
-val: C:/Users/Abdullah/dentx2/images/val
-test: C:/Users/Abdullah/dentx2/images/test
+# data.yaml for YOLO
+train: C:/Users/Abdullah/intraoral/images/train
+val: C:/Users\Abdullah/intraoral/images/val
+test: C:/Users/Abdullah/intraoral/images/test  # optional, only if you want YOLO to evaluate on test set
 
-nc: 1
+nc: 3  # number of classes
 
-name: ['cavity']
+# Class names (index 0 -> severe, 1 -> low, 2 -> moderate)
+names: ['severe', 'low', 'moderate']
